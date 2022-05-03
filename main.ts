@@ -101,6 +101,12 @@ let numb1 = 1
 let numb2 = 5
 timer.after(30000, function () {
     game.splash("Rampage Time", "Unlimited firerate")
+    sprites.destroyAllSpritesOfKind(SpriteKind.Enemy)
+    sprites.destroyAllSpritesOfKind(SpriteKind.enemy2)
+    sprites.destroyAllSpritesOfKind(SpriteKind.enemy3)
+    sprites.destroyAllSpritesOfKind(SpriteKind.enemy4)
+    sprites.destroyAllSpritesOfKind(SpriteKind.enemy5)
+    sprites.destroyAllSpritesOfKind(SpriteKind.Projectile)
     x = 1000
     y = 45
     z = 0
@@ -112,6 +118,7 @@ timer.after(60000, function () {
     sprites.destroyAllSpritesOfKind(SpriteKind.enemy3)
     sprites.destroyAllSpritesOfKind(SpriteKind.enemy4)
     sprites.destroyAllSpritesOfKind(SpriteKind.enemy5)
+    sprites.destroyAllSpritesOfKind(SpriteKind.Projectile)
     z = 500
     numb1 = 0
     numb2 = 0
