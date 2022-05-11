@@ -20,7 +20,9 @@
         "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
         "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
         "pxt-arcade-image-transform": "github:robo-technical-group/pxt-arcade-image-transform#v1.0.8",
-        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.2.5"
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.2.5",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
+        "corgio": "*"
     },
     "files": [
         "main.blocks",
@@ -30,7 +32,8 @@
         "tilemap.g.jres",
         "tilemap.g.ts",
         "images.g.jres",
-        "images.g.ts"
+        "images.g.ts",
+        null
     ],
     "testFiles": [
         "test.ts"
